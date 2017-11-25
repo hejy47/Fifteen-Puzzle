@@ -1,0 +1,73 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+#time,
+#score {
+    width: 30px;
+    left: 20px;
+    background-color: #EEEEEE;
+    position: relative;
+    border: 1px black solid;
+    background-color: #EBEBE4;
+}
+
+#score {
+    left: 17px;
+}
+
+#test {
+    font-size: 20px;
+}
+
+p span {
+    position: relative;
+    left: 10px;
+}
+
+p button {
+    position: relative;
+    width: 160px;
+    right: 50px;
+}
+
+#GameStatus {
+    position: relative;
+    width: 159px;
+    right: 48px;
+    background-color: #EEEEEE;
+    border: 1px black solid;
+    background-color: #EBEBE4;
+}
+
+#container {
+    border-top: solid 2px #B7B3B3;
+    border-bottom: solid 2px #B7B3B3;
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#instructions {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#instructions p {
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+.hole {
+    width: 40px;
+    height: 30px;
+    margin: 0px;
+}

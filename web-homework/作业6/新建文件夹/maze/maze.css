@@ -1,0 +1,164 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    text-align: center;
+}
+
+div {
+    position: relative;
+}
+
+#maze {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+#wall1 {
+    height: 49px;
+    width: 498px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+}
+
+#wall2 {
+    height: 149px;
+    width: 148px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+#wall3 {
+    height: 149px;
+    width: 148px;
+    bottom: 150px;
+    left: 350px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+#wall4 {
+    height: 149px;
+    width: 98px;
+    bottom: 250px;
+    left: 200px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+}
+
+#wall5 {
+    height: 49px;
+    width: 498px;
+    bottom: 250px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+#path1 {
+    height: 49px;
+    width: 200px;
+    background-color: #FFFFFF;
+    bottom: 350px;
+    border-bottom: 1px black solid;
+}
+
+#start {
+    background-color: #A9FFA4;
+    opacity: 0.7;
+}
+
+#start:hover {
+    opacity: 1;
+}
+
+#path2 {
+    height: 150px;
+    width: 50px;
+    background-color: #FFFFFF;
+    bottom: 550px;
+    left: 150px;
+    border-top: 1px black solid;
+}
+
+#path3 {
+    height: 49px;
+    width: 100px;
+    background-color: #FFFFFF;
+    bottom: 701px;
+    left: 201px;
+    border-top: 1px black solid;
+}
+
+#path4 {
+    height: 150px;
+    width: 49px;
+    background-color: #FFFFFF;
+    bottom: 751px;
+    left: 300px;
+    border-top: 1px black solid;
+}
+
+#path5 {
+    height: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    bottom: 750px;
+    left: 300px;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+#end {
+    left: 158px;
+    background-color: #8683FE;
+    opacity: 0.7;
+}
+
+#end:hover {
+    opacity: 1;
+}
+
+#wall_example {
+    height: 50px;
+    width: 80px;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+.wall {
+    background-color: #EEEEEE;
+}
+
+#wall1,
+#wall2,
+#wall3,
+#wall4,
+#wall5,
+#path2,
+#path4 {
+    margin-left: 1px;
+}
+
+#start,
+#end {
+    font-weight: bold;
+    font-size: 30px;
+    top: 4px;
+    height: 42px;
+    width: 42px;
+}
+
+.error {
+    background-color: red;
+}
