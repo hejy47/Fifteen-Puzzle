@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="position">
+        <ul>
+            <li>用户名6~18位英文字母、数字或下划线，必须以英文字母开头</li>
+            <li>学号8位数字，不能以0开头</li>
+            <li>电话11位数字，不能以0开头</li>
+        </ul>
+        <form method="POST">
+            <h1>注册</h1>
+            <span>用户名:</span>
+            <br>
+            <input type="text" name="username" value="" id="username">
+            <div class="check"></div>
+            <br>
+            <span>学号:</span>
+            <br>
+            <input type="text" name="std_id" value="" id="id">
+            <div class="check"></div>
+            <br>
+            <span>电话:</span>
+            <br>
+            <input type="text" name="phone" value="" id="phone">
+            <div class="check"></div>
+            <br>
+            <span>邮箱:</span>
+            <br>
+            <input type="text" name="email" value="" id="mail">
+            <div class="check"></div>
+            <br>
+            <input type="reset" name="reset" class="reset">
+            <input type="submit" name="submit" class="submit">
+        </form>
+        <p class="error">hint</p>
+    </div>
+</body>
+
+</html>
