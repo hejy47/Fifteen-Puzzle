@@ -1,0 +1,107 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/background.png");
+}
+
+#position {
+    width: 500px;
+    height: 700px;
+    margin: 0px auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 25pt;
+    font-weight: inherit;
+}
+
+form {
+    width: 360px;
+    height: 460px;
+    position: absolute;
+    left: 70px;
+    bottom: 150px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px #8b8787;
+    font-weight: lighter;
+}
+
+input {
+    outline: none;
+    width: 300px;
+    height: 30px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    font-size: 15pt;
+    background-color: white;
+}
+
+.error {
+    width: 360px;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    bottom: 0px;
+    left: 70px;
+}
+
+.error.show {
+    text-align: center;
+    opacity: 1;
+}
+
+span {
+    font-size: 16pt;
+}
+
+.login {
+    left: 250px;
+    bottom: 40px;
+    font-size: 13pt;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #EE7600;
+    box-shadow: 0px 2px 12px #EE7600;
+}
+
+.reset {
+    font-size: 13pt;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    left: 116px;
+    bottom: 40px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #48D1D1;
+    box-shadow: 0px 2px 12px #48D1D1;
+}
+
+.down1 {
+    background-color: #20B2AA;
+}
+
+.signup {
+    font-size: 13pt;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    left: 184px;
+    bottom: 40px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #EE7600;
+    box-shadow: 0px 2px 12px #EE7600;
+}
+
+.down2 {
+    background-color: #EE5C42;
+}

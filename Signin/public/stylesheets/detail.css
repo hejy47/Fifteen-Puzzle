@@ -1,0 +1,76 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/background.png");
+}
+
+#position {
+    width: 500px;
+    height: 700px;
+    margin: 0px auto;
+    position: relative;
+}
+
+form {
+    width: 360px;
+    height: 460px;
+    position: absolute;
+    left: 70px;
+    bottom: 150px;
+    background-color: white;
+    box-shadow: 0px 0px 20px #8b8787;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 25pt;
+    font-weight: lighter;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    font-size: 16pt;
+}
+
+.detail {
+    width: 80px;
+    text-align: left;
+    position: relative;
+    left: 30px;
+}
+
+.message {
+    text-align: left;
+    width: 220px;
+    position: relative;
+    left: 35px;
+}
+
+.logout {
+    left: 250px;
+    bottom: 40px;
+    font-size: 13pt;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 2px 12px #EE7600;
+}
+
+.error {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 15pt;
+    opacity: 0;
+}
+
+.error.show {
+    text-align: center;
+    opacity: 1;
+}
